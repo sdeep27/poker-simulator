@@ -6,7 +6,10 @@ From my experience, virtually every high level poker player reaches that level t
 To start, pick a seat (row #) and the column indicates what position you are in for that hand. Work through how the opponents before you would act and how you would likely play your dealt hand.  Visualizing this and examing the various decision points will translate to clearer and more optimal real world play. The optional tourney parameter will also assign a random amount of big blinds, which will alter decisions.  
 -------------  
   
-The function's default parameters - poker_simulator() - will return a 9 handed hold'em cash game of 36 hands/4 orbits.  Changing the parameters can yield an omaha deal, 2 to 10 handed play, tourney big blinds, and more simulations/orbits. { for example, poker_simulator(game="omaha", handed  = 2, tourney = TRUE, simulations = 60)  } There are example outputs in the repo. 
+The function's default parameters: poker_simulator() - will return a 9 handed hold'em cash game of 36 hands/4 orbits.  
+Changing the parameters can yield an omaha deal, 2 to 10 handed play, tourney big blinds, and more simulations/orbits.   
+An example call: poker_simulator(game="omaha", handed  = 2, tourney = TRUE, simulations = 60)  
+There are example outputs in the repo.   
 
   
 ------------  
